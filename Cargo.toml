@@ -1,0 +1,16 @@
+[package]
+name = "flitton_fib_rs"
+version = "0.1.0"
+authors = ["Weiren <miblue119@gmail.com>"]
+edition= "2021"
+
+[dependencies]
+[dependencies.pyo3]
+version="0.13.2"
+features = ["extension-module"]
+
+
+[lib]
+name= "flitton_fib_rs"
+crate-type=["cdylib"]
+
