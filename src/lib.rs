@@ -7,6 +7,7 @@ mod fib_calcs;
 use fib_calcs::fib_number::__pyo3_get_function_fibonacci_number;
 use fib_calcs::fib_numbers::__pyo3_get_function_fibonacci_numbers;
 
+use fib_calcs::fib_numbers;
 pub mod fib_numbers;
 
 //Apply a Python function macro from pyO3 to the say_hello function
