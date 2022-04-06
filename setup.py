@@ -34,7 +34,7 @@ setup(
     ],
     entry_points={
         'console_scripts':[
-            'fib-number=flitton_fib_py.cmd.fib_numb:fib_numb'
+            'fib-number=flitton_fib_rs.fib_number_command:fib_number_command'
         ]
     },
     python_requires=">=3",
